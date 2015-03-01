@@ -127,27 +127,3 @@ You can see some example output from this function. The function that you write 
               ## -1.0000 -0.0528  0.1070  0.1370  0.2780  1.0000
               length(cr)
               ## [1] 323
-
-
-Grading and Submission
-This assignment will be graded using unit tests executed via the submit script you run on your computer. To obtain the submit script, run the following code in R:
-source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
-Or you can download the script to your working directory (NOTE: you may need to rename the file to be "submitscript1.R". Then source the file locally via
-source("submitscript1.R")
-The first time you run the submit script it will prompt you for your Submission login and Submission password. These can be found at the top of the Programmi ng Assignments page. To execute the submit script, type
-submit()
-at the console prompt (after source-ing the file). NOTE that the submit script requires that you be connected to the Internet in order to work properly. When you execute the submit script in R, you will see the following menu (after typing in your submission login email and password):
-[1] 'pollutantmean' part 1
-[2] 'pollutantmean' part 2
-[3] 'pollutantmean' part 3
-[4] 'pollutantmean' part 4
-[5] 'complete' part 1
-[6] 'complete' part 2
-[7] 'complete' part 3
-[8] 'corr' part 1
-[9] 'corr' part 2
-[10] 'corr' part 3
-Which part are you submitting [1-10]? 
-We will compare the output of your functions to the correct output. For each test passed you receive the specified number of points on the Assignments List web page. 
-
-You are finished when you have successfully submitted everything using submit() and you see scores on the assignment page. You can ignore the Submit buttons to the right of each score. They are only to be used when firewall or proxy settings prevent users from successfully using the submit() script. The submit() script will describe how to create files for uploading if there are problems, but under normal circumstances, there is NO NEED to use the Submit buttons on the assignment page.
